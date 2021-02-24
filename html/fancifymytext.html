@@ -4,7 +4,7 @@
 		<title>Fancify Shamcify</title>
 
 		<!-- link to script file -->
-		<script type="text/javascript" src="https://nguyen-cyber.github.io/js/fancimytext.js"></script>
+		<script src="fancifymytext.js"></script>
 
 	</head>
 
@@ -16,13 +16,21 @@
 		</fieldset>
 
 		<label for="fancifyFieldSet">Fancify:</label>
+
 		<fieldset id="fancifyFieldSet">
 			<button onclick="makeTextBigger()" id="b1"> Bigger </button>
+			<br>
+
 			<label for="fancy">FancyShmancy</label>
 			<input type="radio" id="fancy" onchange="makeTextFancy()">
+			<br>
+
 			<label for="boring">BoringBetty</label>
 			<input type="radio" id="boring" onchange="makeTextBoring()">
+			<br>
+			
 			<button onclick="moo()" id="b2"> Moo </button>
 		</fieldset>
+
 	</body>
 </html>
