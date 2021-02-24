@@ -2,14 +2,12 @@
 // Minh Nguyen
 // JavaScript code for fancifymytext
 
-//alert("Hello, world!");
-
 function makeTextBigger() {
-    alert();
+    hello();
     document.getElementById("textInput").style.fontSize = "24pt";
 }
 
-function alert() {
+function hello() {
     alert("Hello, world!");
 }    
 function makeTextBoring() {
