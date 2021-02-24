@@ -5,9 +5,13 @@
 //alert("Hello, world!");
 
 function makeTextBigger() {
+    alert();
     document.getElementById("textInput").style.fontSize = "24pt";
 }
 
+function alert() {
+    alert("Hello, world!");
+}    
 function makeTextBoring() {
     if (document.getElementById("boring").checked == true) {    
         document.getElementById("textInput").style.fontSize = "10pt";
