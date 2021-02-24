@@ -3,13 +3,13 @@
 // JavaScript code for fancifymytext
 
 function makeTextBigger() {
-    hello();
+   // hello();
     document.getElementById("textInput").style.fontSize = "24pt";
 }
 
-function hello() {
-    alert("Hello, world!");
-}    
+//function hello() {
+//    alert("Hello, world!");
+//}    
 function makeTextBoring() {
     if (document.getElementById("boring").checked == true) {    
         document.getElementById("textInput").style.fontSize = "10pt";
